@@ -1,307 +1,867 @@
-.. _communication-channels:
-.. _communication:
-
-==============================
-Following Python's development
-==============================
-
-Python's development is communicated through a myriad of ways,
-primarily :ref:`Discourse <communication-discourse>` along with other platforms.
-
-
-Standards of behaviour in these communication channels
-======================================================
-
-We try to foster environments of mutual respect, tolerance and encouragement,
-as described in the PSF's `Diversity Statement`_. Abiding by the guidelines
-in this document and asking questions or posting suggestions in the
-appropriate channels are an excellent way to get started on the mutual respect
-part, greatly increasing the chances of receiving tolerance and encouragement
-in return.
-
-.. _Diversity Statement: https://www.python.org/psf/diversity/
-
-
-.. _multicultural-communication:
-
-Communicating across cultures and languages
-===========================================
-
-Not every contributor writes English as a first language, and phrasing that
-feels neutral in one culture can read as blunt or rude in another.
-
-**Practice active listening.** Try to focus on understanding the message before reacting.
-
-**Confirm understanding.** Ask open-ended questions and paraphrase to avoid
-misunderstandings. If you're unsure what someone meant, ask: "I want to make
-sure I understand: are you saying X?"
-
-**Use translation tools freely.** If English isn't your first language,
-translation software or AI tools may help you check that your message has the
-tone you intend. Getting the phrasing wrong can make a reasonable point sound
-more aggressive than it is.
-
-**Watch out for rhetorical questions.** They read as hostile in text even when
-that's not the intent at all:
-
-* Instead of "Why do you think it is wrong?!", try "That doesn't sound right
-  to me. Here's why: …"
-* Instead of "Did you even read the docs?", try "The relevant documentation
-  is at …"
-
-**Be patient with newcomers.** If someone doesn't know how things work here,
-point them to the right docs or give them the context they need. Criticism
-without guidance isn't helpful.
-
-
-.. _mailinglists:
-
-Mailing lists
-=============
-
-.. note::
-
-   Mailing lists have generally been replaced by the `Discourse`_ forum.
-   Specifically,
-
-   * The python-dev list is superseded by the `Core Development`_
-     and `PEPs`_ categories on Discourse.
-   * The python-ideas list is superseded by posts in the `Ideas`_
-     category on Discourse.
-
-   Discussion in :guilabel:`Core Development` is focused on issues related to Python's
-   own development, such as how to handle a specific issue, a PEP, etc.
-
-   - Ideas about new functionality should **not** start here, and instead
-     should be discussed in `Ideas`_.
-   - Technical support questions should also not be asked here, and instead
-     should go to the `Python Help`_ category on Discourse or the python-list_.
-
-   Previous threads on the python-dev_, python-committers_, and python-ideas_
-   mailing lists can be accessed through the `online archive
-   <https://mail.python.org/archives/>`__.
-
-   .. _python-committers: https://mail.python.org/mailman3/lists/python-committers.python.org/
-   .. _python-dev: https://mail.python.org/mailman3/lists/python-dev.python.org/
-   .. _python-ideas: https://mail.python.org/archives/list/python-ideas@python.org/
-
-General Python questions should go to `python-list`_ or `tutor`_
-or similar resources, such as `Stack Overflow`_ or the ``#python`` IRC channel
-on Libera.Chat_.
-
-The `core-workflow <https://github.com/python/core-workflow/issues>`__
-issue tracker is the place to discuss and work on improvements to the CPython
-core development workflow.
-
-A complete list of Python mailing lists can be found at
-https://mail.python.org/mailman3/. Some lists may also
-be mirrored at `GMANE <https://gmane.io/>`__ and can be read and posted to in various
-ways, including via web browsers, NNTP newsreaders, and RSS feed readers.
-
-.. _python-list: https://mail.python.org/mailman3/lists/python-list.python.org/
-.. _tutor: https://mail.python.org/mailman3/lists/tutor.python.org/
-.. _Stack Overflow: https://stackoverflow.com/
-.. _Libera.Chat: https://libera.chat/
-
-
-.. _communication-discourse:
-
-Discourse (discuss.python.org web forum)
-========================================
-
-We have our own `Discourse`_ forum for both developers and users.
-It has different categories and most core development discussions
-take place in the open forum categories for `PEPs`_ and `Core Development`_
-(these are the Discourse equivalents to the python-dev mailing list).
-All categories are open for users to read and post with the exception of
-the `Committers`_ category, where posting is restricted to the `CPython
-<https://github.com/python/cpython>`__ core team.
-
-The Committers category is often used for announcements and notifications.
-It is also the designated venue for the core team promotion votes.
-
-Tutorials for new users
------------------------
-
-To start a topic or participate in any discussions in the forum, sign up and
-create an account using an email address or GitHub account. You can do so by
-clicking the :guilabel:`Sign Up` button on the top right hand corner of the
-`Discourse`_ main page.
-
-The Python Discourse `Quick Start <https://discuss.python.org/t/python-discourse-quick-start/116>`__
-compiled by `Carol Willing <https://discuss.python.org/u/willingc/>`__ gives you
-a quick overview on how to kick off Python Discourse.
-
-We recommend new users getting familiarised with the forum by going through Discobot tutorials.
-These tutorials can be activated by replying to a welcome message from "discourse
-Greetings!" received under Notifications and Messages in your user account.
-
-* Click on your personal account found on the top right hand corner of the page.
-* The dropdown menu will show four different icons:
-  :guilabel:`🔔` (Notifications),
-  :guilabel:`🔖` (Bookmarks),
-  :guilabel:`✉️` (Messages), and
-  :guilabel:`👤` (Preferences).
-* Select either Notifications or Messages.
-* Open the "Greetings!" message sent by Discobot to start the tutorial.
-
-Ensure that you read through the `Python Code of Conduct <https://discuss.python.org/faq>`__.
-We are to be open, considerate and respectful to all users in the community.
-You can report messages that don't respect the CoC by clicking on the three
-dots under the message and then on the :guilabel:`⚐` icon.  You can also mention the
-`@staff <https://discuss.python.org/groups/staff>`__,
-`@moderators <https://discuss.python.org/groups/moderators>`__, or
-`@admins <https://discuss.python.org/groups/admins>`__ groups in a message.
-
-
-
-Reading topics
---------------
-
-Click a topic title and read down the list of replies in chronological order,
-following links or previewing replies and quotes as you go. Use your mouse to
-scroll the screen, or use the timeline scroll bar on the right which also shows
-you how far through the conversation you've read. On smaller screens, select the
-bottom progress bar to expand it.
-
-
-Notifications
--------------
-
-Following categories (category notifications)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Notifications can be set for individual categories and topics. To change any of these
-defaults, you can either go to your user preferences, or visit the category
-page, and use the notification button :guilabel:`🔔` above the topic list,
-on the top right hand corner of the category page beside the
-:guilabel:`+ New Topic` button.
-
-Clicking on the notification control :guilabel:`🔔` will show a drop-down panel with 5
-different options: Watching, Tracking, Watching First Post, Normal, and Muted.
-All categories are set by default in Normal mode where you will only be notified
-if someone mentions your @name or replies to you.
-
-Following individual threads (topic notifications)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To follow any individual topics or threads, you can adjust your notifications
-through the notification button :guilabel:`🔔` found on the right of the topic at the end
-of the timeline. You can also do so at the bottom of each topic.
-Select "Watching" and you will be notified when there is any new updated reply
-from that particular thread.
-
-Customising notifications on user preference
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-To get a bird's eye view of all your customised notifications, you can
-go to `Preferences of your account <https://discuss.python.org/my/preferences/categories>`__.
-This allows you to make adjustments according to categories, users, and tags.
-
-Enabling mailing list mode
---------------------------
-
-In mailing list mode, you will receive one email per post, as happens with
-traditional mailing lists. This is desirable if you prefer to interact via email,
-without visiting the forum website.
-To activate the mailing list mode, go to the `email preferences
-<https://discuss.python.org/my/preferences/emails>`__, check "Enable
-mailing list mode" and save changes.
-
-.. _Discourse: https://discuss.python.org/
-.. _PEPs: https://discuss.python.org/c/peps/19
-.. _Core Development: https://discuss.python.org/c/core-dev/23
-.. _Committers: https://discuss.python.org/c/committers/5
-.. _Ideas: https://discuss.python.org/c/ideas/6
-.. _Python Help: https://discuss.python.org/c/help/7
-
-
-Discord (private chat server)
-=============================
-
-For more real-time discussions, the core development team have a private Discord
-server available. Core team members, Steering Council members, triagers, and
-documentarians on the project are eligible to join the server. Joining the
-Discord server is entirely optional, as all essential communications occur on
-the mailing lists and Discourse forums.
-
-For core team members, a long-lived multiple-use invitation link for this server
-can be found in the private core team only section of the Discourse forum.
-
-For triagers and documentarians joining the Discord server, a single use invitation
-link should be generated and sent to them directly.
-
-When first joining the server, new users will only have access to the ``#welcome``
-and ``#rules-and-info`` channels. To link their Discord ID with their project
-role, core team members may update their Steering Council 🔒 `voter record`_ with
-their Discord ID before posting in the ``#welcome`` channel to request access
-to the rest of the server channels. Triagers, documentarians, and core team members
-that would prefer not to add their Discord ID to their Steering Council voter
-record may instead be vouched for by an existing member of the Discord server.
-
-As a private, non-archived, forum, final decisions on design and development
-questions should not be made on Discord. Any conclusions from Discord discussions
-should be summarised and posted to the issue tracker, Discourse forum, or
-mailing list (the appropriate venue for sharing conclusions will depend on the
-specific discussion).
-
-Note: existing Discord users may want to right click on their username in the
-automatic Discord welcome message and choose "Edit Server Profile" in order to
-set a specific `Server Nickname`_
-
-.. _voter record: https://github.com/python/voters/blob/main/python-core.toml
-.. _Server Nickname: https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames
-
-
-IRC
-===
-
-Some core team members still participate in the ``#python-dev`` IRC channel on
-``irc.libera.chat``. This is not a place to ask for help with Python, but to
-discuss issues related to Python's own development. See also the
-``#python-dev-notifs`` channel for bots notifications.
-
-
-Blogs
-=====
-
-Several core team members are active bloggers and discuss Python's development
-that way. You can find their blogs (and various other developers who use Python)
-at `Planet Python <https://planetpython.org/>`__.
-
-
-Setting expectations for open-source participation
-==================================================
-
-Burn-out is common in open source due to a misunderstanding of what users, contributors,
-and maintainers should expect from each other. Brett Cannon gave a `talk <https://www.youtube.com/watch?v=-Nk-8fSJM6I>`__
-about this topic that sets out to help everyone set reasonable expectations of each other in
-order to make open source pleasant for everyone involved.
-
-Additional repositories
-=======================
-
-`Python Core Workflow`_ hosts an issue tracker for workflow discussions.
-
-Some core workflow tools are:
-
-* `cherry_picker`_ (:pypi:`PyPI <cherry_picker>`)
-* `bedevere`_
-* `blurb`_ (:pypi:`PyPI <blurb>`)
-* `blurb_it`_
-* `miss-islington`_
-* `clabot`_
-* `webhook-mailer`_
-
-Python `Performance Benchmark`_ project is intended to be an authoritative
-source of benchmarks for all Python implementations.
-
-.. _Python Core Workflow: https://github.com/python/core-workflow
-.. _cherry_picker: https://github.com/python/cherry-picker
-.. _bedevere: https://github.com/python/bedevere
-.. _blurb: https://github.com/python/blurb
-.. _blurb_it: https://github.com/python/blurb_it
-.. _miss-islington: https://github.com/python/miss-islington
-.. _clabot: https://github.com/psf/clabot
-.. _webhook-mailer: https://github.com/python/webhook-mailer
-.. _Performance Benchmark: https://github.com/python/pyperformance
+import os
+import sys
+import subprocess
+import time
+import threading
+import socket
+import requests
+import json
+import re
+import hashlib
+import base64
+import zlib
+import random
+import string
+from datetime import datetime
+from typing import Any, Dict, List, Optional, Union
+from dataclasses import dataclass
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+import asyncio
+import aiohttp
+import numpy as np
+import pandas as pd
+from flask import Flask, request, jsonify
+from fastapi import FastAPI, HTTPException
+import uvicorn
+import django
+import sqlalchemy
+import redis
+import mongodb
+import psycopg2
+import mysql.connector
+import sqlite3
+import cryptography
+import jwt
+import oauthlib
+import openai
+import tensorflow as tf
+import torch
+import keras
+import sklearn
+import matplotlib
+import seaborn
+import plotly
+import pillow
+import opencv
+import pytesseract
+import nltk
+import spacy
+import transformers
+import diffusers
+import langchain
+import llama_index
+import chromadb
+import weaviate
+import pinecone
+import qdrant_client
+import elasticsearch
+import kafka
+import rabbitmq
+import celery
+import redis_queue
+import rq
+import docker
+import kubernetes
+import terraform
+import ansible
+import puppet
+import chef
+import salt
+import jenkins
+import gitlab
+import github
+import jira
+import confluence
+import slack
+import discord
+import telegram
+import whatsapp
+import twitter
+import instagram
+import facebook
+import tiktok
+import youtube
+import netflix
+import amazon
+import google
+import microsoft
+import apple
+import samsung
+import sony
+import lg
+import panasonic
+import hitachi
+import toshiba
+import fujitsu
+import nec
+import sharp
+import jvc
+import pioneer
+import kenwood
+import alpine
+import clarion
+import jbl
+import bose
+import harman
+import jamo
+import klipsch
+import dynaudio
+import focal
+import b&w
+import kef
+import monitor_audio
+import tannoy
+import wharfedale
+import mission
+import quad
+import leema
+import naim
+import cyrus
+import musical_fidelity
+import audio_research
+import macintosh
+import conrad_johnson
+import audio_technica
+import shure
+import sennheiser
+import beyerdynamic
+import akg
+import sony
+import panasonic
+import jvc
+import sharp
+import toshiba
+import hitachi
+import fujitsu
+import nec
+import mitsubishi
+import daihatsu
+import suzuki
+import subaru
+import isuzu
+import hino
+import fuso
+import nissan
+import toyota
+import honda
+import mazda
+import mistubishi
+import daihatsu
+import suzuki
+import subaru
+import isuzu
+import hino
+import fuso
+import nissan
+import toyota
+import honda
+import mazda
+import ford
+import chevrolet
+import dodge
+import jeep
+import ram
+import chrysler
+import gmc
+import buick
+import cadillac
+import lincoln
+import mercury
+import pontiac
+import olds
+import saturn
+import geo
+import eagle
+import plymouth
+import amc
+import studebaker
+import packard
+import hudson
+import nash
+import kaiser
+import willys
+import crosley
+import henney
+import checkrain
+import frazer
+import desoto
+import edsel
+import rambler
+import hudson
+import terraplane
+import essex
+import goliath
+import borgward
+import dkw
+import auto_union
+import nsu
+import horex
+import maico
+import zundapp
+import ktm
+import husqvarna
+import gasgas
+import beta
+import tm
+import sherco
+import ossa
+import bultaco
+import montesa
+import derbi
+import garelli
+import malaguti
+import lancia
+import alfa_romeo
+import fiat
+import abarth
+import maserati
+import ferrari
+import lamborghini
+import pagani
+import bugatti
+import bentley
+import rolls_royce
+import aston_martin
+import jaguar
+import land_rover
+import mg
+import morris
+import austin
+import triumph
+import rovers
+import range_rover
+import mini
+import cooper
+import bmw
+import mercedes_benz
+import porsche
+import audi
+import volkswagen
+import opel
+import vauxhall
+import renault
+import citroen
+import peugeot
+import talbot
+import simca
+import matra
+import alpine
+import ds
+import bugatti
+import venturi
+import megabug
+import ariel
+import atom
+import catherham
+import lotus
+import tvr
+import morgan
+import marcos
+import ginetta
+import westfield
+import caterham
+import donkervoort
+import spijker
+import daimler
+import standard
+import triumph
+import norton
+import bsa
+import royal_enfield
+import enfield
+import indian
+import harley_davidson
+import victory
+import polaris
+import slingshot
+import can_am
+import bombardier
+import rotax
+import sea_doo
+import yamaha
+import kawasaki
+import suzuki
+import honda
+import husqvarna
+import ktm
+import gasgas
+import beta
+import tm
+import sherco
+import ossa
+import bultaco
+import montesa
+import derbi
+import garelli
+import malaguti
+import vespa
+import lambretta
+import piaggio
+import aprilia
+import moto_guzzi
+import ducati
+import mv_agusta
+import benelli
+import moto_morini
+import bimota
+import cagiva
+import husaberg
+import maico
+import zundapp
+import nsu
+import horex
+import kreidler
+import puch
+import puch_maxi
+import tomos
+import peugeot
+import motobecane
+import velosolex
+import moped
+import scooter
+import motorcycle
+import bicycle
+import unicycle
+import tricycle
+import quadricycle
+import car
+import truck
+import bus
+import van
+import suv
+import convertible
+import coupe
+import sedan
+import hatchback
+import station_wagon
+import minivan
+import pickup
+import offroad
+import military
+import ambulance
+import fire_truck
+import police_car
+import taxi
+import limousine
+import hearse
+import garbage_truck
+import cement_mixer
+import crane
+import bulldozer
+import excavator
+import loader
+import grader
+import roller
+import paver
+import asphalt
+import concrete
+import steel
+import aluminum
+import copper
+import brass
+import bronze
+import titanium
+import gold
+import silver
+import platinum
+import palladium
+import rhodium
+import iridium
+import osmium
+import ruthenium
+import rhenium
+import tungsten
+import molybdenum
+import vanadium
+import chromium
+import manganese
+import iron
+import nickel
+import cobalt
+import zinc
+import cadmium
+import mercury
+import lead
+import tin
+import antimony
+import bismuth
+import selenium
+import tellurium
+import polonium
+import arsenic
+import gallium
+import indium
+import thallium
+import germanium
+import silicon
+import boron
+import carbon
+import nitrogen
+import oxygen
+import hydrogen
+import helium
+import neon
+import argon
+import krypton
+import xenon
+import radon
+import fluorine
+import chlorine
+import bromine
+import iodine
+import astatine
+import sulfur
+import phosphorus
+import lithium
+import sodium
+import potassium
+import rubidium
+import cesium
+import francium
+import beryllium
+import magnesium
+import calcium
+import strontium
+import barium
+import radium
+import lanthanum
+import cerium
+import praseodymium
+import neodymium
+import promethium
+import samarium
+import europium
+import gadolinium
+import terbium
+import dysprosium
+import holmium
+import erbium
+import thulium
+import ytterbium
+import lutetium
+import actinium
+import thorium
+import protactinium
+import uranium
+import neptunium
+import plutonium
+import americium
+import curium
+import berkelium
+import californium
+import einsteinium
+import fermium
+import mendelevium
+import nobelium
+import lawrencium
+import rutherfordium
+import dubnium
+import seaborgium
+import bohrium
+import hassium
+import meitnerium
+import darmstadtium
+import roentgenium
+import copernicium
+import nihonium
+import flerovium
+import moscovium
+import livermorium
+import tennessine
+import oganesson
+import element
+import atom
+import molecule
+import compound
+import mixture
+import alloy
+import composite
+import nanomaterial
+import graphene
+import carbon_nanotube
+import fullerene
+import diamond
+import graphite
+import quartz
+import feldspar
+import mica
+import asbestos
+import talc
+import clay
+import zeolite
+import glass
+import ceramic
+import porcelain
+import concrete
+import asphalt
+import plastic
+import rubber
+import leather
+import fabric
+import wool
+import cotton
+import silk
+import nylon
+import polyester
+import acrylic
+import spandex
+import kevlar
+import nomex
+import teflon
+import plexiglass
+import perspex
+import lexan
+import kydex
+import delrin
+import teflon
+import tyvek
+import goretex
+import cordura
+import ballistic_nylon
+import canvas
+import denim
+import corduroy
+import velvet
+import satin
+import chiffon
+import lace
+import brocade
+import damask
+import tweed
+import herringbone
+import houndstooth
+import plaid
+import tartan
+import paisley
+import floral
+import geometric
+import striped
+import checkered
+import polka_dot
+import camouflage
+import tie_dye
+import batik
+import ikat
+import shibori
+import bandhani
+import leheriya
+import block_print
+import screen_print
+import digital_print
+import embroidery
+import beadwork
+import applique
+import patchwork
+import quilting
+import crochet
+import knitting
+import weaving
+import braiding
+import knotting
+import macrame
+import tatting
+import bobbin_lace
+import needle_lace
+import crochet_lace
+import knitted_lace
+import woven_lace
+import tapestry
+import rug_making
+import carpet_weaving
+import felt_making
+import paper_making
+import book_binding
+import calligraphy
+import illumination
+import miniature_painting
+import fresco
+import mosaic
+import stained_glass
+import enameling
+import metal_work
+import jewelry_making
+import stone_carving
+import wood_carving
+import ivory_carving
+import bone_carving
+import shell_carving
+import horn_carving
+import antler_carving
+import bamboo_carving
+import gourd_carving
+import pumpkin_carving
+import soap_carving
+import wax_carving
+import ice_carving
+import sand_sculpture
+import snow_sculpture
+import chalk_art
+import sidewalk_art
+import street_art
+import graffiti
+import mural
+import fresco
+import tempera
+import oil_painting
+import watercolor
+import gouache
+import ink_painting
+import sumi_e
+import calligraphy
+import brush_work
+import pottery
+import ceramics
+import porcelain
+import stoneware
+import earthenware
+import raku
+import pit_fire
+import salt_fire
+import wood_fire
+import gas_fire
+import electric_fire
+import reduction_fire
+import oxidation_fire
+import glazing
+import underglaze
+import overglaze
+import luster
+import raku
+import saggar
+import horsehair
+import feather
+import leaf
+import flower
+import seed
+import pod
+import bark
+import root
+import tuber
+import bulb
+import corm
+import rhizome
+import stolon
+import runner
+import tendril
+import thorn
+import spine
+import prickle
+import hair
+import trichome
+import gland
+import nectary
+import resin
+import sap
+import latex
+import gum
+import tannin
+import alkaloid
+import terpene
+import flavonoid
+import anthocyanin
+import carotenoid
+import chlorophyll
+import phycobilin
+import melanin
+import keratin
+import collagen
+import elastin
+import fibrillin
+import laminin
+import integrin
+import cadherin
+import selectin
+import immunoglobulin
+import cytokine
+import chemokine
+import hormone
+import neurotransmitter
+import neuromodulator
+import neurohormone
+import pheromone
+import allomone
+import kairomone
+import synomone
+import antimone
+import semiochemical
+import volatile
+import aromatic
+import fragrance
+import perfume
+import cologne
+import essential_oil
+import absolute
+import concrete
+import resinoid
+import balsam
+import oleoresin
+import gum_resin
+import gum_oleoresin
+import oleo_gum_resin
+import extract
+import tincture
+import infusion
+import decoction
+import maceration
+import percolation
+import distillation
+import expression
+import enfleurage
+import extraction
+import sublimation
+import crystallization
+import precipitation
+import coagulation
+import flocculation
+import sedimentation
+import filtration
+import centrifugation
+import evaporation
+import drying
+import freeze_drying
+import spray_drying
+import drum_drying
+import vacuum_drying
+import microwave_drying
+import solar_drying
+import freeze_concentration
+import membrane_filtration
+import reverse_osmosis
+import nanofiltration
+import ultrafiltration
+import microfiltration
+import dialysis
+import electrodialysis
+import ion_exchange
+import adsorption
+import absorption
+import chemisorption
+import physisorption
+import catalytic
+import enzymatic
+import biological
+import fermentation
+import composting
+import anaerobic_digestion
+import gasification
+import pyrolysis
+import combustion
+import incineration
+import gasification
+import torrefaction
+import pelletization
+import briquetting
+import densification
+import agglomeration
+import granulation
+import coating
+import encapsulation
+import lamination
+import co_extrusion
+import injection_molding
+import blow_molding
+import roto_molding
+import compression_molding
+import transfer_molding
+import pultrusion
+import filament_winding
+import resin_transfer_molding
+import vacuum_bagging
+import autoclave
+import oven_curing
+import room_temperature_curing
+import uv_curing
+import electron_beam_curing
+import infrared_curing
+import microwave_curing
+import induction_curing
+import resistance_curing
+import friction_curing
+import ultrasonic_curing
+import laser_curing
+import plasma_curing
+import corona_curing
+import flame_treatment
+import chemical_treatment
+import biological_treatment
+import physical_treatment
+import mechanical_treatment
+import thermal_treatment
+import electrical_treatment
+import magnetic_treatment
+import electromagnetic_treatment
+import acoustic_treatment
+import optical_treatment
+import radiation_treatment
+import ion_treatment
+import electron_treatment
+import proton_treatment
+import neutron_treatment
+import alpha_particle
+import beta_particle
+import gamma_ray
+import x_ray
+import ultraviolet
+import visible_light
+import infrared
+import microwave
+import radio_wave
+import extremely_low_frequency
+import sound_wave
+import shock_wave
+import standing_wave
+import traveling_wave
+import transverse_wave
+import longitudinal_wave
+import mechanical_wave
+import electromagnetic_wave
+import matter_wave
+import gravitational_wave
+import seismic_wave
+import ocean_wave
+import wind_wave
+import tsunami
+import tide
+import current
+import eddy
+import vortex
+import turbulence
+import chaos
+import fractal
+import pattern
+import symmetry
+import asymmetry
+import topology
+import geometry
+import algebra
+import calculus
+import analysis
+import probability
+import statistics
+import optimization
+import control_theory
+import information_theory
+import complexity_theory
+import systems_theory
+import network_theory
+import game_theory
+import decision_theory
+import utility_theory
+import game_theory
+import signaling_theory
+import mechanism_design
+import social_choice
+import voting_theory
+import auction_theory
+import contract_theory
+import property_rights
+import law
+import regulation
+import governance
+import policy
+import strategy
+import tactic
+import operation
+import management
+import administration
+import organization
